@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js03.html</title>
+    <link rel="stylesheet" href="CSS/css03.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <script src="JS/js03.js"></script>
+</head>
+<body>
+    <h1>CHƯƠNG TÌNH GIẢI PHƯƠNG TRÌNH BÂC 2</h1>
+    <!-- <p class="item"><b> ax<sup>2</sup> + bx +c = 0</b></p> -->
+    <table>
+        <caption align="center"><b>ax<sup>2</sup> + bx +c = 0</b></caption>
+        <tr>
+            <td class="item"> a = </td> 
+            <td > <input type="text"id="item_a" > </td>
+        </tr>
+        <tr>
+            <td class="item">b = </td>
+            <td > <input type="text" id="item_b"></td>
+        </tr>
+        <tr>
+            <td class="item">c = </td>
+            <td > <input  type="text"  id="item_c"></td>
+        </tr>
+        <tr>
+            <td class="item"></td>
+            <td> <button type="button" onclick="giai()"> Giai</button> <button type="button" onclick="reset()"> Xoa </button>  </td>
+        </tr>
+    </table>
+    <br>
+    <span> <b>Phương tình có 2 nghiệm là:</b> </span> 
+    <br>
+    <p id="show"></p>
+    <b> <span id="x1">  </span> </b>
+    <br>
+    <b> <span id="x2">  </span> </b>
+</body>
+</html>

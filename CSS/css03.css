@@ -1,0 +1,39 @@
+h1
+{
+    text-align: center;
+}
+
+table
+{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(253, 231, 199);
+    border: 2px solid black;
+}
+
+
+td
+{
+    border: 0.5px black solid;
+
+}
+
+button
+{
+    width:50px;
+}
+
+.reset1
+{
+    width:50px;
+}
+
+.item
+{
+    width:100px;
+    height: 30px;
+}
+
+
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 01</title>
+    <style>
+        table
+        {
+            width: 500px;
+            border:1px solid black;
+        }
+        .item
+        {
+            border: 1px solid black;
+            width:40%;
+        }
+        .item1
+        {
+            border: 1px solid black;
+            width:60%;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>CHƯƠNG TÌNH TÍNH TUỔI</h1>
+    <br>
+        <table>
+           <tr>
+                <td class="item">Nhập vào tên bạn: </td>
+                <td class="item1"> <input type="text" placeholder="Nhập họ và tên" id="name"></td>
+            </tr>
+            <tr>
+                <td class="item">Nhập vào năm sinh: </td>
+                <td class="item1"> <input type="text" id="year"> </td>
+            </tr>
+        </table>
+        <br>
+        <button type="button" onclick="myfunction()"> Submit</button>
+        <script>
+            function myfunction(){
+                name1 = document.getElementById('name').value;
+                age1 =  document.getElementById('year').value;
+                document.getElementById('show').innerHTML = "Chao ban: " + name1;
+                document.getElementById('age').innerHTML = "Tuoi cua ban: " + age1;
+            }
+        </script>
+        <br>
+        <span id="show"></span>
+        <br>
+        <span id="age"> </span>
+</body>
+</html>
