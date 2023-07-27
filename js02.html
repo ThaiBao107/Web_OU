@@ -7,8 +7,24 @@
  </head>
  <body>
     <script>
-        prompt("Chuoi thong bao: " + number);
-        alert("Ban vua nhap: " + number);
+      month = prompt("Nhap thang: ");
+      year = prompt("Nhap nam: ");
+      document.write("Thang " + month +" nam " + year + "<br>");
+      function myFunction(){
+         var d = new Date();
+         var thu = d.getDay() + 1;
+         var thang = d.getMonth() + 1;
+         var nam = d.getFullYear();
+         var ngay = d.getDate();
+         var gio = d.getHours();
+         var phut = d.getMinutes();
+         var giay = d.getSeconds();
+         document.getElementById("show_1").innerHTML = "Hom nay, thu " + thu +" ngay " + ngay + "/" + thang + "/" + nam + "<br>";
+         document.getElementById("show_2").innerHTML = gio + ":" + phut + ":" +giay;
+      }
     </script>
+   <button  type="button" onclick="myFunction()">Xem ngay gio</button>
+   <p id = "show_1"></p>
+   <p id = "show_2"></p>
  </body>
  </html>

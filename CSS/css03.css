@@ -9,6 +9,7 @@ table
     height: 100px;
     background-color: rgb(253, 231, 199);
     border: 2px solid black;
+    border-collapse: collapse;
 }
 
 
