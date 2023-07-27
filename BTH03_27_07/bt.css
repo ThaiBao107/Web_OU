@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    color:yellowgreen;
+    text-shadow: 2px 3px 3px rgb(102, 11, 11);
+    background-image: url("https://2.bp.blogspot.com/-vCmAJrmeoTY/VwTKqnElEVI/AAAAAAAAALI/2LNV364f3Lc_jfdmbcrMf8JbS3UDFux6Q/s1600/background.jpg");
+    width:auto;
+    height: 75px;
+    line-height: 75px;
+}
+
+nav .menu
+{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+li{
+    list-style-type: none;
+}
+.menu a{
+    text-decoration: none;
+    margin-right: 6px;
+    background-color: aqua;
+    padding:5px;
+    line-height: 30px;
+}
+
+.menu a:hover{
+    color: antiquewhite;
+}
+
